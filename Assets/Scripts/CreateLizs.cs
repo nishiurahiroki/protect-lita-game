@@ -9,7 +9,7 @@ public class CreateLizs : MonoBehaviour {
 		float xPosition = 5;
 		float yPosition = -1;
 
-		while(true) {
+		while(true) { // TODO LINQ
 			GameObject lizClone = Instantiate(this.lizPrefab) as GameObject;
 			lizClone.transform.position = new Vector2(xPosition, yPosition);
 			yield return new WaitForSeconds(1.0f);
