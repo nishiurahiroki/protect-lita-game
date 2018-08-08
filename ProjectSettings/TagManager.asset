@@ -47,3 +47,6 @@ TagManager:
   - name: Front
     uniqueID: 2667898767
     locked: 0
+  - name: FireEffect
+    uniqueID: 604083161
+    locked: 0

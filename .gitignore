@@ -4,5 +4,6 @@ Library/metadata
 Library/ShaderCache
 Library/ShaderCache.db
 Library/PlayerDataCache
+Library/webgl_cache
 Library/il2cpp_cache*
 *.log
