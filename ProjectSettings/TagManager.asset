@@ -39,14 +39,14 @@ TagManager:
   - 
   m_SortingLayers:
   - name: Back
-    uniqueID: 2922961103
+    uniqueID: 2008961279
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Front
-    uniqueID: 2667898767
+    uniqueID: 498564217
     locked: 0
-  - name: FireEffect
-    uniqueID: 604083161
+  - name: MostFront
+    uniqueID: 342915375
     locked: 0
