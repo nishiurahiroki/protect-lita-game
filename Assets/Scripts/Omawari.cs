@@ -10,7 +10,7 @@ public class Omawari : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Space)) {
 			this.showShotEffect();
 
-			if(0 == GameGlobalState.remainingBurret) {
+			if(0 == GameGlobalState.burretStock) {
 				return;
 			}
 
@@ -28,6 +28,6 @@ public class Omawari : MonoBehaviour {
 	private void shotBurret() {
     this.gameObject.GetComponent<AudioSource>().Play();
 		Instantiate(this.burret, transform.position, transform.rotation);
-		GameGlobalState.remainingBurret--;
+		GameGlobalState.burretStock--;
 	}
 }

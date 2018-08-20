@@ -168,12 +168,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 1
+    m_Font: {fileID: 12800000, guid: d69cc978c5dc1e74186010903e2b2edc, type: 3}
+    m_FontSize: 3
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 5
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -222,7 +222,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.9999995, y: 133.4}
+  m_AnchoredPosition: {x: 6, y: 137}
   m_SizeDelta: {x: 152.6, y: 51.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369704012
@@ -324,7 +324,7 @@ MonoBehaviour:
   maxSpeed: 1
   minSpeed: 5
   lizStock: 15
-  remainingBurret: 20
+  burretStock: 25
   lizCreateIntervalTo: 1
   lizCreateIntervalFrom: 1
 --- !u!1 &397575012
@@ -382,12 +382,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 1
+    m_Font: {fileID: 12800000, guid: d69cc978c5dc1e74186010903e2b2edc, type: 3}
+    m_FontSize: 5
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 5
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -538,7 +538,7 @@ MonoBehaviour:
   maxSpeed: 2
   minSpeed: 7
   lizStock: 25
-  remainingBurret: 30
+  burretStock: 30
   lizCreateIntervalTo: 0.8
   lizCreateIntervalFrom: 1.2
 --- !u!1 &713069635
@@ -609,8 +609,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 713069635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19, y: 0.054, z: 0}
-  m_LocalScale: {x: 2.4937034, y: 2.9829745, z: 1}
+  m_LocalPosition: {x: -0.092, y: 0.054, z: 0}
+  m_LocalScale: {x: 3.1787224, y: 2.9829745, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -647,7 +647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.156006, y: -0.11669922}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 12.312, y: 7.8999996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &731866937
@@ -670,12 +670,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 1
+    m_Font: {fileID: 12800000, guid: d69cc978c5dc1e74186010903e2b2edc, type: 3}
+    m_FontSize: 3
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 5
+    m_MaxSize: 20
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -737,7 +737,7 @@ MonoBehaviour:
   maxSpeed: 0
   minSpeed: 0
   lizStock: 0
-  remainingBurret: 0
+  burretStock: 0
   lizCreateIntervalTo: 0
   lizCreateIntervalFrom: 0
 --- !u!1 &1156037503
@@ -973,7 +973,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d69cc978c5dc1e74186010903e2b2edc, type: 3}
     m_FontSize: 29
     m_FontStyle: 0
     m_BestFit: 1
@@ -985,7 +985,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Protect lita!
+  m_Text: Protect lita
 --- !u!222 &1538253114
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1027,8 +1027,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.9999995, y: -23.599997}
-  m_SizeDelta: {x: 221.2, y: 58.1}
+  m_AnchoredPosition: {x: 0, y: -27.497}
+  m_SizeDelta: {x: 250.8, y: 55.006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587860407
 MonoBehaviour:
@@ -1129,7 +1129,7 @@ MonoBehaviour:
   maxSpeed: 5
   minSpeed: 9
   lizStock: 50
-  remainingBurret: 55
+  burretStock: 53
   lizCreateIntervalTo: 0.2
   lizCreateIntervalFrom: 0.7
 --- !u!1 &1623973964
@@ -1200,8 +1200,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1623973964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.17, y: -3.49, z: 0}
-  m_LocalScale: {x: 0.5602344, y: 0.6320989, z: 0.8638388}
+  m_LocalPosition: {x: 2.49, y: -3.49, z: 0}
+  m_LocalScale: {x: 0.6200073, y: 0.6320989, z: 0.8638388}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

@@ -44,7 +44,6 @@ public class Liz : MonoBehaviour {
       this.MoveToOutOfScreen();
 			Destroy(colliderObject.gameObject);
       Destroy(this.gameObject.GetComponent<BoxCollider2D>());
-      --GameGlobalState.lizStock;
 		}
 	}
 

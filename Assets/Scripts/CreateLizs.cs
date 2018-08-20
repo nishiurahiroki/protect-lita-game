@@ -15,6 +15,7 @@ public class CreateLizs : MonoBehaviour {
 			this.lizPrefab.GetComponent<Liz>().maxSpeed = GameGlobalState.lizMaxSpeed;
 			GameObject lizClone = Instantiate(this.lizPrefab) as GameObject;
 			lizClone.transform.position = new Vector2(xCreatePosition, yCreatePosition);
+      --GameGlobalState.lizStock;
 			yield return new WaitForSeconds(this.GetLizCreateInterval());
 		}
 
@@ -23,7 +24,7 @@ public class CreateLizs : MonoBehaviour {
 	}
 
 	private bool ExistsStock() {
-		return 1 < GameGlobalState.lizStock;
+		return 0 < GameGlobalState.lizStock;
 	}
 
 	private float GetLizCreateInterval() {
