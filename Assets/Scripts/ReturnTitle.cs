@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ReturnTitle : MonoBehaviour {
-	public void OnClick() {
-		SceneManager.LoadScene("Title");
-	}
+  public void OnClick() {
+    SceneManager.LoadScene("Title");
+  }
 }
