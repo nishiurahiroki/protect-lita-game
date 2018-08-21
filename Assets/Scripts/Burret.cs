@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Burret : MonoBehaviour {
-  public float speed = 0.1f;
+  public float speed = 0.3f;
 
   private Renderer _renderer;
 

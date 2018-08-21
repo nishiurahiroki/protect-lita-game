@@ -6,21 +6,30 @@ using UnityEngine.SceneManagement;
 public class CreateLizs : MonoBehaviour {
   public GameObject lizPrefab;
 
-  IEnumerator Start () { // TODO コルーチン以外で書けないか?
-    const float xCreatePosition = 5;
-    const float yCreatePosition = -1;
+  IEnumerator Start () { // TODO LINQで書ける?
+    const float xCreatePosition = 5.0f;
+    const float yCreatePosition = -1.3f;
 
-    while(this.ExistsStock()) { // TODO LINQ
-      this.lizPrefab.GetComponent<Liz>().minSpeed = GameGlobalState.lizMinSpeed;
-      this.lizPrefab.GetComponent<Liz>().maxSpeed = GameGlobalState.lizMaxSpeed;
-      GameObject lizClone = Instantiate(this.lizPrefab) as GameObject;
-      lizClone.transform.position = new Vector2(xCreatePosition, yCreatePosition);
-      --GameGlobalState.lizStock;
+    while(this.ExistsStock()) {
+      int createdLizCount = this.Create(xCreatePosition, yCreatePosition);
+      GameGlobalState.lizStock -= createdLizCount;
       yield return new WaitForSeconds(this.GetLizCreateInterval());
     }
 
-    yield return new WaitForSeconds(1.5f);
+    yield return new WaitForSeconds(3.5f);
     SceneManager.LoadScene("GameClear");
+  }
+
+  private int Create(float xCreatePosition, float yCreatePosition) {
+    this.lizPrefab.GetComponent<Liz>().minSpeed = GameGlobalState.lizMinSpeed;
+    this.lizPrefab.GetComponent<Liz>().maxSpeed = GameGlobalState.lizMaxSpeed;
+    GameObject lizClone = Instantiate(this.lizPrefab) as GameObject;
+    if(!lizClone) {
+      return 0;
+    }
+
+    lizClone.transform.position = new Vector2(xCreatePosition, yCreatePosition);
+    return 1;
   }
 
   private bool ExistsStock() {

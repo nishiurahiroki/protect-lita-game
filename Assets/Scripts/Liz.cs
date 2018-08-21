@@ -49,7 +49,7 @@ public class Liz : MonoBehaviour {
 
   void Update() {
     if(this.isHitBurret) {
-      this.transform.Rotate(new Vector3(20.0f,30.0f,10.0f));
+      this.transform.Rotate(new Vector3(20.0f, 30.0f, 10.0f));
       this.transform.localScale = new Vector2(0.4f, 0.4f);
     }
   }
