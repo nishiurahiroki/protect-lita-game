@@ -222,7 +222,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 137}
+  m_AnchoredPosition: {x: 6.03, y: 88}
   m_SizeDelta: {x: 152.6, y: 51.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369704012
@@ -359,8 +359,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.2246696}
   m_AnchorMax: {x: 0.7413198, y: 1}
-  m_AnchoredPosition: {x: 32.489, y: -9.500002}
-  m_SizeDelta: {x: 64.777, y: 18.9}
+  m_AnchoredPosition: {x: 19.27, y: -5.7204}
+  m_SizeDelta: {x: 38.339, y: 11.341}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &397575014
 MonoBehaviour:
@@ -394,7 +394,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "*\u0B18(\u0A6D*\u02CA\u1D55\u02CB)\u0A6D* \u0A48\u2729\u2027\u208A\u02DA"
+  m_Text: "\u2605\u2605\u2605"
 --- !u!222 &397575015
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -436,7 +436,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 61}
+  m_AnchoredPosition: {x: 6, y: 25.6}
   m_SizeDelta: {x: 152.6, y: 51.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626030158
@@ -950,8 +950,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: 234}
-  m_SizeDelta: {x: 462.9, y: 75.3}
+  m_AnchoredPosition: {x: 6.03, y: 162}
+  m_SizeDelta: {x: 364.5, y: 59.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1538253113
 MonoBehaviour:
@@ -1027,8 +1027,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -30.8}
-  m_SizeDelta: {x: 297.2, y: 61.6}
+  m_AnchoredPosition: {x: 6.015, y: -39}
+  m_SizeDelta: {x: 152.63, y: 50.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587860407
 MonoBehaviour:
@@ -1126,10 +1126,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8ab0a88a471414b9ad1e4e6c2a0df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 5
-  minSpeed: 9
+  maxSpeed: 4
+  minSpeed: 8
   lizStock: 50
-  burretStock: 53
+  burretStock: 52
   lizCreateIntervalTo: 0.2
   lizCreateIntervalFrom: 0.7
 --- !u!1 &1623973964
@@ -1200,8 +1200,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1623973964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.54, y: -3.637, z: 0}
-  m_LocalScale: {x: 0.58252215, y: 0.59388274, z: 0.8116118}
+  m_LocalPosition: {x: 2.694, y: -3.75, z: 0}
+  m_LocalScale: {x: 0.55364585, y: 0.5644433, z: 0.77137923}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

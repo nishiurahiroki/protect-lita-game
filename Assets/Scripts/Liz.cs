@@ -42,9 +42,14 @@ public class Liz : MonoBehaviour {
       this.isHitBurret = true;
 
       this.MoveToOutOfScreen();
+      this.Scream();
       Destroy(colliderObject.gameObject);
       Destroy(this.gameObject.GetComponent<BoxCollider2D>());
     }
+  }
+
+  private void Scream() {
+    this.GetComponent<AudioSource>().Play();
   }
 
   void Update() {
